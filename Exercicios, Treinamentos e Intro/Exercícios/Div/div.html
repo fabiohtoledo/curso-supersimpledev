@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Div Treinada!</title>
+
+    <style>
+      .div-quadrada{
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        border-radius: 0px;
+        background-color: red;
+        transition: background-color 1, border-radius 1;
+      }
+      .div-quadrada:hover{
+        background-color: green;
+        border-radius: 50px;
+      }
+      .div-redonda{
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        border-radius: 50px;
+      }
+      .div-redonda:hover{
+        background-color: red;
+        border-radius: 0px;
+      }
+      
+      .div-pergunta{
+        display: inline-block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 30px;
+        border: 1px solid;
+        border-color: black;
+      }
+      .texto-pergunta{
+        font-family: Arial;
+        margin-top: 0px;
+      }
+
+      .dois-paragrafos{
+        display: inline-block;
+        background-color: rgb(19, 19, 19);
+        width: 300px;
+        height: 100px;
+      }
+      .titulo-install{
+        margin-top: 20px;
+        margin-left: 13px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-family: Arial;
+        font-weight: bold;
+        color: rgb(219, 219, 219);
+      }
+      .texto-instal{
+        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-left: 13px;
+        margin-right: 13px;
+        font-size: 15px;
+        font-family: arial;
+        font-weight: lighter;
+        color: rgb(206, 206, 206);
+      }
+      
+      .div-card{
+        display: inline-block;
+        height: 240px;
+        width: 150px;
+        box-shadow: 1px;
+        box-shadow: 0px 0px 5px 2px rgba(17, 17, 17, 0.2);
+        margin-left: 5px;
+      }
+      .img-card{
+        width: 150px;
+
+      }
+      .name-card{
+        display: inline-block;
+        margin-top: 3px;
+        margin-bottom: 2px;
+        margin-left: 5px;
+        font-family: arial;
+        font-size: 14px;
+        font-weight: bold;
+      }
+      .mutual-card{
+        margin-top: 3px;
+        margin-bottom: 2px;
+        margin-left: 5px;
+        font-family: arial;
+        font-size: 14px;
+        color: rgb(99, 99, 99);
+      }
+      .add-card{
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 5px;
+        margin-left: 5px;
+        margin-top: 3px;
+        color: white;
+        cursor: pointer;
+        background-color: rgb(0, 134, 187);
+        border: 0px;
+      }
+      .add-card:hover{
+        background-color: rgb(112, 180, 207);
+      }
+
+
+    </style>
+
+  </head>
+  <body>
+    <div class="div-quadrada"></div>
+    <div class="div-redonda"></div>
+    <p></p>
+
+    <div class="div-pergunta">
+      <p class="texto-pergunta">Vamos aprender Front-end?</p>
+      <button>Sim</button>
+      <button>Com certeza</button>
+    </div>
+    <p></p>
+
+    <div class="dois-paragrafos">
+      <p class="titulo-install">Instale o Youtube Musica</p>
+      <p class="texto-instal">Adicione o Youtube Musica a sua area de trabalho para rápido e fácil acesso</p>
+
+    </div>
+
+    <p></p>
+
+
+    <div class="div-card">
+      <img src="img/pic.jpg" class="img-card">
+      <p class="name-card">Suh Sonnewend</p>
+      <p class="mutual-card">38 Amigos em Comum</p>
+      <Button class="add-card">Adicionar</Button>
+    </div>
+    <div class="div-card">
+      <img src="img/pic-2.png" class="img-card">
+      <p class="name-card">Fábio Toledo</p>
+      <p class="mutual-card">18 Amigos em Comum</p>
+      <Button class="add-card">Adicionar</Button>
+    </div>
+    
+  </body>
+</html>

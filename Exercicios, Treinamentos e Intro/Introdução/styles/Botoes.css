@@ -1,0 +1,294 @@
+.sub-yt-button {
+  background-color: red;
+  color:white;
+  border: none;
+  width: 115px;
+  height: 35px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px ;
+  transition: opacity 0.15s;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.sub-yt-button:hover{
+  opacity: 0.75;
+}
+.sub-yt-button:active{
+  opacity: 0.5;
+}
+
+
+.login-twitter-b{
+  background-color: white;
+  border-color: rgb(0, 153, 255);
+  color: rgb(0, 153, 255);
+  border-style: solid;
+  border-radius: 3px;
+  height: 35px;
+  width: 65px;
+  border-width: 1px;
+  cursor: pointer;
+  margin-right: 8px ;
+  transition: background-color 0.5s, color 0.5s;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+.login-twitter-b:hover{
+  background-color: rgb(0, 153, 255);
+  color: white;
+}
+.login-twitter-b:active{
+  opacity: 0.6;
+}
+
+
+.tweet-button{
+background-color: rgb(0, 153, 255);
+color: white;
+border-radius: 30px;
+border: none;
+height: 35px;
+width: 74px;
+cursor: pointer;
+font-weight: 200;
+font-size: 15px;
+transition: box-shadow 0.5;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+.tweet-button:hover{
+box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.15);
+}
+.tweet-button:active{
+opacity: 0.6;
+}
+
+
+.ml-comprar-b{
+background-color: rgb(57, 127, 219);
+color: white;
+border: none;
+height: 47px;
+width: 300px;
+border-radius: 6px;
+cursor: pointer;
+margin-top: 100px;
+font-weight: bold;
+transition: background-color 0.4s;
+padding-left: 60px;
+padding-right: 60px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.ml-comprar-b:hover{
+background-color: rgb(52, 114, 196);
+}
+.ml-comprar-b:active{
+ background-color: rgb(29, 74, 133);
+}
+
+
+.ml-addcarrinho-b{
+background-color: rgb(204, 221, 250);
+color: rgb(57, 127, 219);
+border: none;
+height: 47px;
+width: 300px;
+border-radius: 6px;
+cursor:pointer;
+margin-top: 7px;
+font-weight: bold;
+transition: background-color 0.4s;
+padding-left: 39px;
+padding-right: 39px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.ml-addcarrinho-b:hover{
+background-color: rgb(191, 208, 236);
+}
+.ml-addcarrinho-b:active{
+background-color: rgb(169, 186, 216);
+}
+
+.listadesej-b{
+background-color: rgb(58, 101, 122);
+color:rgb(0, 153, 255);
+border: none;
+height:30px;
+width: 150px;
+cursor:pointer;
+border-radius: 4px;
+margin-top: 50px;
+}
+.seguir-b{
+background-color: rgb(58, 101, 122);
+color:rgb(0, 153, 255);
+border: none;
+height:30px;
+width: 70px;
+cursor:pointer;
+border-radius: 4px;
+margin-top: 50px;
+transition: background-color 0.15;
+}
+.seguir-b:hover{
+background-color:rgb(60, 189, 228);
+}
+.ignorar-b{
+background-color: rgb(58, 101, 122);
+color:rgb(0, 225, 255);
+border: none;
+height:30px;
+width: 80px;
+cursor:pointer;
+border-radius: 4px;
+margin-top: 50px;
+}
+.miningevents-b{
+background-color: rgb(105, 179, 102);
+color: white;
+border: none;
+height: 22px;
+width: 140px;
+font-size: 10px;
+margin-top: 1px;
+margin-bottom: 50px;
+border-radius: 3px;
+cursor:pointer;
+}
+.miningnew-b{
+background-color: rgb(105, 179, 102);
+color: white;
+border: none;
+height: 22px;
+width: 140px;
+font-size: 10px;
+margin-top: 50px;
+border-radius: 3px;
+cursor:pointer;
+}
+
+.anuncia-b{
+background-color: rgb(189, 123, 0);
+color: white;
+border-radius: 15px;
+border: none;
+height: 35px;
+width: 85px;
+
+}
+.back-b{
+background-color: purple;
+color: white;
+font-size: 10px;
+border: none;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+margin-top: 100px;
+margin-bottom: 5px;
+border-radius: 2px;
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+transition: padding-right  0.1s, padding-left 0.1s, margin-left 0.1s, margin-right 0.1s, box-shadow 0.1s, font-size 0.1s;
+margin-left: 4px;
+margin-right: 4px;
+}
+.back-b:active{
+box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+
+font-size: 9px;
+margin-left: 5px;
+margin-right: 5.5px;
+}
+.next-b{
+background-color: purple;
+color: white;
+font-size: 10px;
+border: none;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+margin-top: 100;
+margin-bottom: 5px;
+border-radius: 2px;
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+transition: padding-right  0.1s, padding-left 0.1s, margin-left 0.1s, margin-right 0.1s, box-shadow 0.1s, font-size 0.1s;
+margin-left: 4px;
+margin-right: 4px;
+}
+.next-b:active{
+box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+
+font-size: 9px;
+margin-left: 5px;
+margin-right: 5.5px;
+}
+.number{
+background-color: purple;
+color: white;
+font-size: 10px;
+border: none;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+border-radius: 2px;
+margin-left: 4px;
+margin-right: 4px;
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+transition: padding-right  0.1s, padding-left 0.1s, margin-left 0.1s, margin-right 0.1s, box-shadow 0.1s, font-size 0.1s;
+}
+.number:hover{
+padding-left: 14px;
+padding-right: 14px;
+margin-left: 0px;
+margin-right: 0px;
+}
+.number:active{
+box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+
+font-size: 9px;
+margin-left: 0px;
+margin-right: 0.6px;
+}
+
+.uptop{
+background-color: purple;
+color: white;
+font-size: 10px;
+border: none;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+border-radius: 2px;
+margin-left: 85px;
+margin-top: 2px;
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+transition: padding-right 1s, padding-left 1s, margin-left 1s, box-shadow 1s, font-size 1s, margin-top 1s;
+
+}
+.uptop:hover{
+padding-left: 50px;
+padding-right: 50px;
+margin-left: 45px;
+}
+.uptop:active{
+box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+
+font-size: 9px;
+margin-left: 50px;
+margin-top: 4px;
+margin-right: 0.6px;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+  <head>
+    <title>Flexbox</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+      .header-flex{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:space-between;
+
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: rgb(120, 82, 178);
+        height: 50px;
+      }
+      .header-left{
+        margin-right: 15px;
+        width: 100px;
+      }
+      .header-center{
+        flex: 1;
+        max-width: 500px;
+        min-width: 200px;
+      }
+      .header-right{
+        width: 100px;
+      }
+
+      .barra-de-pesquisa{
+        border-radius: 30px;
+        border: 0px;
+        height: 30px;
+        width: 90%;
+        padding-left: 15px;
+      }
+      .home{
+        font-size: 16px;
+        font-family: roboto;
+
+        color: white;
+
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+      .download-button{
+        font-size: 16px;
+        font-family: roboto;
+
+        color: white;
+        background-color:rgb(120, 82, 178);
+        border-color: white;
+        border-style: solid;
+        border-width: 1px;
+        
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="header-flex">
+      <div class="header-left">
+        <p class="home">Home</p>
+      </div>
+      <div class="header-center">
+        <input type="text" placeholder="Pesquisar" class="barra-de-pesquisa">
+      </div>
+      <div class="header-right">
+        <button class="download-button">Download</button>
+      </div>
+    </div>
+    
+  </body>
+</html>
