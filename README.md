@@ -1,8 +1,11 @@
 # YouTube Clone
+*(Portuguese version below / Versão em português abaixo)*
 
 A responsive YouTube clone built with pure HTML and CSS. This project was developed as part of the **SuperSimpleDev** HTML & CSS course, focusing on recreating a modern, real-world website to solidify fundamental web development skills.
 
-![YouTube Clone Preview](https://postimg.cc/Pp0RJwtr)
+**Page Link**[Youtube Clone - SupersimpleDev](https://fabiohtoledo.github.io/curso-supersimpledev/)
+
+![YouTube Clone Preview](https://i.postimg.cc/PJqs6W9Z/print-projeto.png)
 
 ## 📋 About the Project
 
@@ -15,7 +18,7 @@ This was the final project for a certificate course that has been viewed by over
 ## 🚀 Features
 
 - **Modern UI:** Replicates the core layout and visual style of YouTube.
-- **Responsive Design:** Adapts seamlessly to desktop, tablet, and mobile screens using CSS Grid and Flexbox.
+- **Responsive Design:** Adapts seamlessly screens using CSS Grid and Flexbox.
 - **Interactive Elements:** Includes hover effects on video thumbnails and buttons.
 - **Complex Layouts:** Implements nested layouts with a sidebar, video grid, and header.
 - **Pure Code:** Built entirely with vanilla HTML and CSS, without any frameworks.
@@ -50,7 +53,9 @@ This project was a practical application of core web development concepts, inclu
 
 Um clone responsivo do YouTube construído com HTML e CSS puros. Este projeto foi desenvolvido como parte do curso de **HTML e CSS do SuperSimpleDev**, com o objetivo de recriar um site moderno e do mundo real para solidificar os conhecimentos fundamentais de desenvolvimento web.
 
-![Preview do Clone do YouTube](https://postimg.cc/Pp0RJwtr)
+**Link da pagina**[Youtube Clone - SupersimpleDev](https://fabiohtoledo.github.io/curso-supersimpledev/)
+
+![Preview do Clone do YouTube](https://i.postimg.cc/PJqs6W9Z/print-projeto.png)
 
 ## 📋 Sobre o Projeto
 
@@ -63,7 +68,7 @@ Este foi o projeto final para um curso com certificado que foi visualizado por m
 ## 🚀 Funcionalidades
 
 - **UI Moderna:** Replica o layout central e o estilo visual do YouTube.
-- **Design Responsivo:** Adapta-se perfeitamente a telas de desktop, tablet e mobile usando CSS Grid e Flexbox.
+- **Design Responsivo:** Adapta-se perfeitamente a telas usando CSS Grid e Flexbox.
 - **Elementos Interativos:** Inclui efeitos de *hover* em miniaturas de vídeo e botões.
 - **Layouts Complexos:** Implementa layouts aninhados com uma barra lateral, grade de vídeos e cabeçalho.
 - **Código Puro:** Construído inteiramente com HTML e CSS vanilla, sem o uso de frameworks.
